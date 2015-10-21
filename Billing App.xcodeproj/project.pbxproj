@@ -14,6 +14,8 @@
 		48C0EA1D1BD7716100F3F4F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C0EA1C1BD7716100F3F4F7 /* Images.xcassets */; };
 		48C0EA201BD7716100F3F4F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C0EA1E1BD7716100F3F4F7 /* LaunchScreen.xib */; };
 		48C0EA2C1BD7716100F3F4F7 /* Billing_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C0EA2B1BD7716100F3F4F7 /* Billing_AppTests.swift */; };
+		48C0EA361BD7803100F3F4F7 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C0EA351BD7803100F3F4F7 /* SignInViewController.swift */; };
+		48C0EA381BD7818A00F3F4F7 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C0EA371BD7818A00F3F4F7 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		48C0EA251BD7716100F3F4F7 /* Billing AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billing AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C0EA2A1BD7716100F3F4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48C0EA2B1BD7716100F3F4F7 /* Billing_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billing_AppTests.swift; sourceTree = "<group>"; };
+		48C0EA351BD7803100F3F4F7 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		48C0EA371BD7818A00F3F4F7 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			children = (
 				48C0EA121BD7716100F3F4F7 /* AppDelegate.swift */,
 				48C0EA171BD7716100F3F4F7 /* ViewController.swift */,
+				48C0EA351BD7803100F3F4F7 /* SignInViewController.swift */,
+				48C0EA371BD7818A00F3F4F7 /* SignInViewController.swift */,
 				48C0EA191BD7716100F3F4F7 /* Main.storyboard */,
 				48C0EA1C1BD7716100F3F4F7 /* Images.xcassets */,
 				48C0EA1E1BD7716100F3F4F7 /* LaunchScreen.xib */,
@@ -215,8 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C0EA361BD7803100F3F4F7 /* SignInViewController.swift in Sources */,
 				48C0EA181BD7716100F3F4F7 /* ViewController.swift in Sources */,
 				48C0EA131BD7716100F3F4F7 /* AppDelegate.swift in Sources */,
+				48C0EA381BD7818A00F3F4F7 /* SignInViewController.swift in Sources */,
 				48C0EA161BD7716100F3F4F7 /* Billing_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
